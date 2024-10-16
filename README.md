@@ -1,5 +1,11 @@
 # [Now UI Kit](http://demos.creative-tim.com/now-ui-kit/index.html?ref=nuk-readme) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/home?status=Now%20UI%20Kit%20is%20a%20Free%20Bootstrap%204%20UI%20Kit%20%E2%9D%A4%EF%B8%8F%0Ahttp%3A//demos.creative-tim.com/now-ui-kit/index.html%20%23bootstrap%20%23uikit%20%23design%20%20%23html%20%23free%20via%20%40CreativeTim)
 
+
+
+This UI development task was completed as part of an internship with **Kaliba Enterprises Pvt Ltd**.
+
+
+
 ![version](https://img.shields.io/badge/version-1.3.0-blue.svg)  ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/now-ui-kit.svg?maxAge=2592000)](https://github.com/creativetimofficial/now-ui-kit/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/now-ui-kit.svg?maxAge=2592000)](https://github.com/creativetimofficial/now-ui-kit/issues?q=is%3Aissue+is%3Aclosed)
 
 ![Product Image](https://s3.amazonaws.com/creativetim_bucket/products/56/original/opt_nuk_thumbnail.jpg?1466002372 "Now UI Kit")
@@ -159,3 +165,9 @@ Facebook: <https://www.facebook.com/CreativeTim?ref=adnp-readme>
 Dribbble: <https://dribbble.com/creativetim?ref=adnp-readme>
 
 Instagram: <https://www.instagram.com/CreativeTimOfficial?ref=adnp-readme>
+
+
+...
+### Acknowledgment
+This UI development task was completed as part of an internship with **Kaliba Enterprises Pvt Ltd**.
+
