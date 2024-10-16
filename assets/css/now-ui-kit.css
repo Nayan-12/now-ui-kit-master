@@ -1030,24 +1030,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   border-radius: 0;
 }
 
-.datepicker table tr td.today,
-.datepicker table tr td.today:hover,
-.datepicker table tr td.today.disabled,
-.datepicker table tr td.today.disabled:hover {
-  background-color: #fde19a;
-  background-image: -moz-linear-gradient(to bottom, #fdd49a, #fdf59a);
-  background-image: -ms-linear-gradient(to bottom, #fdd49a, #fdf59a);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fdd49a), to(#fdf59a));
-  background-image: -webkit-linear-gradient(to bottom, #fdd49a, #fdf59a);
-  background-image: -o-linear-gradient(to bottom, #fdd49a, #fdf59a);
-  background-image: linear-gradient(to bottom, #fdd49a, #fdf59a);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdd49a', endColorstr='#fdf59a', GradientType=0);
-  border-color: #fdf59a #fdf59a #fbed50;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
-  color: #000;
-}
+
 
 .datepicker table tr td.today:hover,
 .datepicker table tr td.today:hover:hover,
@@ -1101,26 +1084,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   border-radius: 0;
 }
 
-.datepicker table tr td.range.today,
-.datepicker table tr td.range.today:hover,
-.datepicker table tr td.range.today.disabled,
-.datepicker table tr td.range.today.disabled:hover {
-  background-color: #f3d17a;
-  background-image: -moz-linear-gradient(to bottom, #f3c17a, #f3e97a);
-  background-image: -ms-linear-gradient(to bottom, #f3c17a, #f3e97a);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f3c17a), to(#f3e97a));
-  background-image: -webkit-linear-gradient(to bottom, #f3c17a, #f3e97a);
-  background-image: -o-linear-gradient(to bottom, #f3c17a, #f3e97a);
-  background-image: linear-gradient(to bottom, #f3c17a, #f3e97a);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f3c17a', endColorstr='#f3e97a', GradientType=0);
-  border-color: #f3e97a #f3e97a #edde34;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
-}
+
 
 .datepicker table tr td.range.today:hover,
 .datepicker table tr td.range.today:hover:hover,
@@ -1156,25 +1120,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   background-color: #efe24b \9;
 }
 
-.datepicker table tr td.selected,
-.datepicker table tr td.selected:hover,
-.datepicker table tr td.selected.disabled,
-.datepicker table tr td.selected.disabled:hover {
-  background-color: #9e9e9e;
-  background-image: -moz-linear-gradient(to bottom, #b3b3b3, #808080);
-  background-image: -ms-linear-gradient(to bottom, #b3b3b3, #808080);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#b3b3b3), to(#808080));
-  background-image: -webkit-linear-gradient(to bottom, #b3b3b3, #808080);
-  background-image: -o-linear-gradient(to bottom, #b3b3b3, #808080);
-  background-image: linear-gradient(to bottom, #b3b3b3, #808080);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b3b3b3', endColorstr='#808080', GradientType=0);
-  border-color: #808080 #808080 #595959;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
-  color: #fff;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-}
+
 
 .datepicker table tr td.selected:hover,
 .datepicker table tr td.selected:hover:hover,
@@ -1434,14 +1380,14 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
 .navbar .navbar-nav>a.btn {
   border-width: 2px;
   font-weight: 400;
-  font-size: 0.8571em;
+  font-size: 0.9571em;
   line-height: 1.35em;
   margin: 10px 1px;
   border: none;
   border-radius: 0.1875rem;
   padding: 11px 22px;
   cursor: pointer;
-  background-color: #888888;
+  background-color: #c7ab51;
   color: #FFFFFF;
 }
 
@@ -1467,9 +1413,10 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
 .show>.navbar .navbar-nav>a.btn.dropdown-toggle,
 .show>.navbar .navbar-nav>a.btn.dropdown-toggle:focus,
 .show>.navbar .navbar-nav>a.btn.dropdown-toggle:hover {
-  background-color: #979797;
+  /* background-color: #979797; */
   color: #FFFFFF;
   box-shadow: none;
+  font-size: 1.2em;
 }
 
 .btn:hover,
@@ -3500,7 +3447,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 400;
+  font-weight: 600;
+  margin:0 auto;
 }
 
 small {
@@ -3508,17 +3456,18 @@ small {
 }
 
 a {
-  color: #f96332;
+  color: #ffffff;
 }
 
 a:hover,
 a:focus {
-  color: #f96332;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 h1,
 .h1 {
-  font-size: 3.5em;
+  font-size: 2.5em;
   line-height: 1.15;
   margin-bottom: 30px;
 }
@@ -3538,9 +3487,10 @@ h2,
 
 h3,
 .h3 {
-  font-size: 1.825em;
+  font-size: 4.5em;
   margin-bottom: 30px;
-  line-height: 1.4em;
+  line-height: .9em;
+  width: 45vw;
 }
 
 h4,
@@ -3579,7 +3529,8 @@ h6,
 
 p {
   line-height: 1.61em;
-  font-weight: 300;
+  font-weight: 500;
+  font-style: italic;
   font-size: 1.2em;
 }
 
@@ -4560,7 +4511,7 @@ Created using IcoMoon - icomoon.io
 
 .navbar .navbar-nav .nav-link:not(.btn) {
   text-transform: uppercase;
-  font-size: 0.7142em;
+  font-size: 0.8642em;
   padding: 0.5rem 0.7rem;
   line-height: 1.625rem;
 }
@@ -5501,6 +5452,12 @@ img {
   padding: 0;
 }
 
+.prj{
+  max-width: 100%;
+  height: 89%;
+}
+
+
 .card .card-footer {
   padding: 0;
   margin-top: 15px;
@@ -5603,11 +5560,11 @@ img {
 }
 
 .index-page .page-header {
-  height: 125vh;
+  height: 70%;
 }
 
 .index-page .page-header .container>.content-center {
-  top: 37%;
+  top: 40%;
 }
 
 .index-page .page-header .category-absolute {
@@ -5724,6 +5681,11 @@ img {
 
 .profile-page .content .social-description h2 {
   margin-bottom: 15px;
+}
+
+.profile1{
+  height: 30em;
+  width: 70em;
 }
 
 .profile-page .button-container {
@@ -5911,6 +5873,8 @@ img {
   color: #FFFFFF;
 }
 
+
+
 .login-page .card-login.card-plain .form-group.no-border .form-control+.input-group-text,
 .login-page .card-login.card-plain .input-group.no-border .form-control+.input-group-text {
   background-color: rgba(255, 255, 255, 0.1);
@@ -5958,9 +5922,9 @@ img {
 }
 
 .section {
-  padding: 70px 0;
+  padding: 140px 0;
   position: relative;
-  background: #FFFFFF;
+  background: linear-gradient(63deg, #2c2c2c, #000);
 }
 
 .section .row+.category {
@@ -5981,7 +5945,7 @@ img {
 
 .page-header {
   min-height: 100vh;
-  max-height: 999px;
+  max-height: 100%;
   padding: 0;
   color: #FFFFFF;
   position: relative;
@@ -6005,8 +5969,11 @@ img {
 
 .page-header>.container {
   z-index: 2;
-  padding-top: 12vh;
+  padding-top: 17em;
   padding-bottom: 40px;
+  }
+.container1{
+  padding-top: 10em;
 }
 
 .page-header .page-header-image {
@@ -6026,11 +5993,11 @@ img {
   -ms-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  text-align: center;
+  text-align: left;
   color: #FFFFFF;
   padding: 0 15px;
   width: 100%;
-  max-width: 880px;
+  max-width: 60vw;
 }
 
 .page-header footer {
@@ -6044,6 +6011,12 @@ img {
   z-index: 1;
   text-align: center;
   position: relative;
+}
+
+.container-2{
+  height: 130vh;
+  width: 70vw;
+  margin: 0 auto;  
 }
 
 .page-header .category,
@@ -6069,16 +6042,16 @@ img {
 }
 
 .clear-filter[filter-color="orange"] {
-  background: rgba(44, 44, 44, 0.2);
+ /* background: rgba(44, 44, 44, 0.2);
   /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
+ /* background: -webkit-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
+ /* background: -o-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
+ /* background: -moz-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));*/
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
-  /* Standard syntax */
+  background: linear-gradient(63deg, #2c2c2c, #000); 
+   /* Standard syntax */
 }
 
 .section-story-overview {
@@ -6291,9 +6264,9 @@ img {
   color: #888888;
 }
 
-[data-background-color]:not([data-background-color="gray"]) h1,
+/* [data-background-color]:not([data-background-color="gray"]) h1, */
 [data-background-color]:not([data-background-color="gray"]) h2,
-[data-background-color]:not([data-background-color="gray"]) h3,
+/* [data-background-color]:not([data-background-color="gray"]) h3, */
 [data-background-color]:not([data-background-color="gray"]) h4,
 [data-background-color]:not([data-background-color="gray"]) h5,
 [data-background-color]:not([data-background-color="gray"]) h6,
@@ -6476,6 +6449,138 @@ img {
 [data-background-color]:not([data-background-color="gray"]).section-nucleo-icons .icons-container i:nth-child(6) {
   color: #FFFFFF;
 }
+
+.about{
+  width: 80vw;
+  padding-top: 8em;
+  margin: 0 auto;
+  font-size: 1.2em;
+}
+
+.progress-circle .h4 {
+  color: #b1b493;
+  font-size: 22px; }
+
+.progress-circle .small {
+    font-weight: 600; }
+
+.progress-circle .progress {
+      width: 150px;
+      height: 150px;
+      background: none;
+      position: relative; }
+    
+.progress-circle .progress::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        border: 6px solid #eee;
+        position: absolute;
+        top: 0;
+        left: 0; }
+
+.progress-circle .progress > span {
+          width: 50%;
+          height: 100%;
+          overflow: hidden;
+          position: absolute;
+          top: 0;
+          z-index: 1; }
+.progress-circle .progress .progress-left {
+  left: 0; 
+}
+
+.progress-circle .progress .progress-bar {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border-width: 6px;
+  border-style: solid;
+  position: absolute;
+  top: 0; }
+
+
+  .progress-circle .progress .progress-left .progress-bar {
+    left: 100%;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-left: 0;
+    color: #003399;
+    -webkit-transform-origin: center left;
+    -ms-transform-origin: center left;
+    transform-origin: center left;
+    border-color: #b1b493 !important; }
+  
+  .progress-circle .progress .progress-right {
+    right: 0; }
+  
+  .progress-circle .progress .progress-right .progress-bar {
+    left: -100%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+    -webkit-transform-origin: center right;
+    -ms-transform-origin: center right;
+    transform-origin: center right;
+    border-color: #b1b493 !important; }
+  
+  .progress-circle .progress .progress-value {
+    position: absolute;
+    top: 0;
+    left: 0; }
+    .rounded-lg {
+      border-radius: 0.3rem !important; }
+
+
+  
+.font-weight-bold {
+  font-weight: 700 !important;
+color: #000;
+margin-top: 1em;
+ }
+ small,
+ .small {
+   font-size: 80%;
+   font-weight: 400; 
+  margin-top: 10px;}
+
+   .progress-circle .small {
+    font-weight: 600; }
+  
+    .progress-circle .progress .progress-right {
+      right: 0; }
+    
+    .progress-circle .progress .progress-right .progress-bar {
+      left: -100%;
+      border-top-left-radius: 80px;
+      border-bottom-left-radius: 80px;
+      border-right: 0;
+      -webkit-transform-origin: center right;
+      -ms-transform-origin: center right;
+      transform-origin: center right;
+      border-color: #b1b493 !important; }
+
+      sup {
+        top: -.1em; }
+      
+        .rounded-lg{
+          height: 22em;
+        }
+
+        .col-md-6{
+          position: relative;
+          width: 100%;
+          padding-right: 15px;
+          padding-left: 15px; }
+          
+.cont{
+  font-weight:900;
+  font-size: 180%;
+}
+
+
+
 
 @media screen and (max-width: 991px) {
   .sidebar-collapse .navbar-collapse {
@@ -7322,4 +7427,5 @@ img {
   }
 }
 
-/*# sourceMappingURL=kit-free.css.map */
+/* 
+# sourceMappingURL=kit-free.css.map */ 
